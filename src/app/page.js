@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <main className="bg-[#E6F4FF] text-[#0B1C2D] min-h-screen">
 
-      {/* ================= NAVBAR ================= */}
+      
       <nav className="flex justify-between items-center px-8 py-5 bg-white shadow-md">
 
-        {/* Logo + Name */}
+        {
         <div className="flex items-center gap-3">
           <div className="bg-[#38B000] w-10 h-10 flex items-center justify-center rounded-full">
             <span className="text-white font-bold">LC</span>
@@ -18,7 +18,6 @@ export default function Home() {
           </h1>
         </div>
 
-        {/* Nav Links */}
         <div className="hidden md:flex gap-8 items-center text-sm font-medium">
           <Link href="/">
             <span className="hover:text-[#38B000] cursor-pointer">
@@ -43,7 +42,6 @@ export default function Home() {
 
       </nav>
 
-      {/* ================= HERO SECTION ================= */}
       <section className="text-center py-28 px-6">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
           Professional Financial & Tax Solutions You Can Trust
@@ -70,7 +68,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= WHY CHOOSE US ================= */}
       <section className="py-20 px-6 bg-white">
         <h2 className="text-3xl font-bold text-center mb-12">
           Why Choose Labib Consultancy?
@@ -117,7 +114,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ================= CALL TO ACTION ================= */}
       <section className="py-20 px-6 text-center">
         <h2 className="text-3xl font-bold mb-6">
           Ready to Simplify Your Finances?
@@ -128,7 +124,6 @@ export default function Home() {
         </button>
       </section>
 
-      {/* ================= FOOTER ================= */}
       <footer className="bg-white py-10 px-6 mt-20 border-t border-[#38B000]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           
@@ -140,7 +135,6 @@ export default function Home() {
             <h2 className="text-lg font-semibold">Labib Consultancy</h2>
           </div>
 
-          {/* Contact Info */}
           <div className="flex flex-col md:flex-row gap-10 text-sm text-gray-700">
             <div className="space-y-2">
               <p><strong>Phone:</strong> 0799996024</p>
